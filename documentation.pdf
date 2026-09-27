@@ -1,0 +1,638 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 11 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 14153
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 51.35433 783.0394 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 14 Tf 16 TL 92.26946 0 Td (The Corporate Heist - Solution Documentation) Tj T* -92.26946 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 770.6394 cm
+q
+BT 1 0 0 1 0 2.1 Tm 10.4 TL /F2 8.3 Tf 0 0 0 rg (Team name:) Tj /F1 8.3 Tf ( [TEAM NAME]  ) Tj (  ) Tj /F2 8.3 Tf (Unstop team ID:) Tj /F1 8.3 Tf ( [UNSTOP TEAM ID]  ) Tj (  ) Tj /F2 8.3 Tf (Members:) Tj /F1 8.3 Tf ( Arush Pratap Singh, [other members]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 753.6394 cm
+q
+.101961 .239216 .427451 rg
+BT 1 0 0 1 0 1.8 Tm /F2 10.2 Tf 12 TL (1. Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 647.6394 cm
+q
+BT 1 0 0 1 0 95.7 Tm 10.4 TL /F1 8.3 Tf 0 0 0 rg (The shortlist is the 500 profiles we expect Nightingale's ) Tj /F2 8.3 Tf (new) Tj /F1 8.3 Tf ( panel to rate as its top 5%. It is built in three layers. \(i\) A gradient-boosted) Tj T* (model learnt on the Archive predicts one-year performance from the genuine drivers \(technical assessment, role-skill fit, last rating,) Tj T* (KPI, aptitude, recruiter notes ...\); the old committee's pet preferences \(college prestige, big metro, referral, big-brand employer,) Tj T* ("proper" degree, CV without gap\) are learnt by the model but then ) Tj /F3 8.3 Tf (neutralised) Tj /F1 8.3 Tf ( when scoring the Vault. \(ii\) The insider's five statements) Tj T* (are turned into rules: fast-track for sustained public code contributions, a boost for assessment toppers from colleges never hired from) Tj T* -0.103788 Tw (before, a retained leg-up for a few old-boys-network colleges, and hard exclusions for title-inflated CVs and candidates who cannot join) Tj T* 0 Tw (within two months. \(iii\) Fabricated profiles and repeated persons are removed before ranking. Of 10,000 Vault rows, 996 are excluded;) Tj T* (the top 500 of the remaining are ranked by score. The shortlist contains 116 sustained contributors \(90+ contributions\), 124 further) Tj T* (profiles with moderate contribution credit, 54 assessment toppers from new colleges, and the rest are high-model-score candidates) Tj T* (\(mean predicted score 70.5, mean assessment 78, mean role-fit 5.0 of 6 core skills\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 630.6394 cm
+q
+.101961 .239216 .427451 rg
+BT 1 0 0 1 0 1.8 Tm /F2 10.2 Tf 12 TL (2. Data cleaning and parsing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 607.8394 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.4 TL /F1 8.3 Tf 0 0 0 rg (All parsing lives in ) Tj /F4 8.3 Tf (code/heist_clean.py) Tj /F1 8.3 Tf (. Every column was normalised to one unit; unparseable values become missing \(never) Tj T* (guessed\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.44094 340.7394 cm
+q
+.901961 .929412 .968627 rg
+n 0 264.6 490.3937 -12.4 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 3 253.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (Field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 253.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (Messy values found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 253.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (Handling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 241.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (total_experience) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 231.9 cm
+q
+BT 1 0 0 1 0 11.2 Tm 9.4 TL /F1 7.6 Tf 0 0 0 rg ("Fresher", "22 months", "20+ years", ">20", ") Tj (<) Tj (1 year", "8+ yrs",) Tj T* ("17.6 years", 4.6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 231.9 cm
+q
+BT 1 0 0 1 0 11.2 Tm 9.4 TL /F1 7.6 Tf 0 0 0 rg (years \(float\); Fresher=0, months/12,) Tj T* ("N+"=N+0.5, ">20"=21, ") Tj (<) Tj (1"=0.5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 219.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (technical_assessment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 219.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL ("0.43", "49/100", "99.0 %", 86, "absent", "not taken") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 210.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (scaled 0-100; fractions x100; absent/not taken =) Tj T* (missing + flag) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 197.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (aptitude_score) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 197.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL ("5.7/10", "55%", 6.3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 197.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (0-10 scale \(percent/10\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 185.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (current/expected_ctc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 175.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL ("58.3 LPA", "5.40L", "INR 54.8 lakh", "Rs 38,33,000", "3360000",) Tj T* ("7.53 Cr", "$31,230") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 185.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (annual INR \(LPA/lakh x1e5, Cr x1e7, $ x83\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 163.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (notice_period) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 154.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL ("1 month", "60 days", "Immediate joiner", "Available now", "Serving) Tj T* (notice - 30 days", "4 months", "180 days") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 163.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (days \(month=30\) + serving flag) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 132.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (last_rating, kpi_met,) Tj T* (awards) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 132.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL ("Outstanding", "3/5", "New joiner - not rated";) Tj T* (Y/Yes/1/TRUE/no/0/FALSE; "-", "1 award", "Yes - Spot Award") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 141.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (1-5 numeric \(text mapped\), 0/1 flags) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 119.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (institute \(944 spellings\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 101.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 20.6 Tm /F1 7.6 Tf 9.4 TL ("IIT-D", "I.I.T. Delhi", "IITB", "INDIAN INSTITUTE OF) Tj T* (TECHNOLOGY DELHI", " IIT Delhi ", "NIT Trichy", "BITS, Pilani",) Tj T* ("DTU"/"Delhi College of Engineering \(DCE\)") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 110.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (case/space/punctuation normalisation + alias) Tj T* (table -> ~400 canonical colleges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 88.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (city, degree) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 79.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (Madras/Chennai, Gurgaon/Gurugram, Calcutta/Kolkata, New) Tj T* (Delhi/Delhi NCR; B.E./BE/Btech/Bachelor of Technology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 88.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (canonical city and degree codes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 66.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (skills \(197 spellings\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 57.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL ("Python3"/"python 3"/"PYTHON", "k8s"/"EKS/GKE", "AB) Tj T* (testing"/"split testing") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 66.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (alias map -> 56 canonical skills, multi-hot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 45.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (career_path) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 45.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (separators ->, >, |, arrows; "\(3.4y\)", "[23 mo]", "\(1.6 yrs\)") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 45.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (parsed to \(title, years\); seniority level per title) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 23.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (public_code_) Tj T* (contributions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 32.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL ("~3", "10+", "3 PRs", "3 merged PRs", "not tracked", blank, 60, 408) Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 23.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (count \(N+ = N+0.5\); "not tracked"/blank = 0) Tj T* (credit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 10.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (name / email / phone) Tj T* ET
+Q
+Q
+q
+1 0 0 1 90.87402 1.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL ("Dadhich, Ashutosh" vs "Ashutosh Dadhich"; "x+jobs@..." ;) Tj T* ("+91-61173-08690" vs "06117308690") Tj T* ET
+Q
+Q
+q
+1 0 0 1 323.315 10.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (used only to detect repeated persons \(section 5\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.6 .6 .6 RG
+.3 w
+n 0 264.6 m 490.3937 264.6 l S
+n 0 0 m 490.3937 0 l S
+n 0 0 m 0 264.6 l S
+n 490.3937 0 m 490.3937 264.6 l S
+n 0 252.2 m 490.3937 252.2 l S
+n 0 230.4 m 490.3937 230.4 l S
+n 0 208.6 m 490.3937 208.6 l S
+n 0 196.2 m 490.3937 196.2 l S
+n 0 174.4 m 490.3937 174.4 l S
+n 0 152.6 m 490.3937 152.6 l S
+n 0 130.8 m 490.3937 130.8 l S
+n 0 99.6 m 490.3937 99.6 l S
+n 0 77.8 m 490.3937 77.8 l S
+n 0 56 m 490.3937 56 l S
+n 0 43.6 m 490.3937 43.6 l S
+n 0 21.8 m 490.3937 21.8 l S
+n 87.87402 0 m 87.87402 264.6 l S
+n 320.315 0 m 320.315 264.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 323.7394 cm
+q
+.101961 .239216 .427451 rg
+BT 1 0 0 1 0 1.8 Tm /F2 10.2 Tf 12 TL (3. What drives a great hire - findings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 280.1394 cm
+q
+BT 1 0 0 1 0 33.3 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 9 33.3 Tm .5 0 Td 10.4 TL /F2 8.3 Tf 0 0 0 rg (Fabricated profiles are the biggest trap.) Tj /F1 8.3 Tf ( Assessment score rises steadily to ~63 average post-hire score at 77-84, then ) Tj /F3 8.3 Tf (collapses) Tj /F1 8.3 Tf  T* -0.5 0 Td (\(43 above 84\). Cause: rows with assessment >) Tj (= 85 ) Tj /F3 8.3 Tf (and) Tj /F1 8.3 Tf ( two stacked positive recruiter notes \(625 rows, 3.1%\) have mean score 9.1) Tj T* (\(median 0\), while equally high scorers without the double note average 68.0 \(n=835\). Every timeline-impossible row \(experience) Tj T* (longer than time since degree, degree before age 18, age minus experience < 18\) falls inside this set.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 256.8394 cm
+q
+BT 1 0 0 1 0 12.5 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 9 12.5 Tm .5 0 Td 10.4 TL /F2 8.3 Tf 0 0 0 rg (Role fit) Tj /F1 8.3 Tf (: each applied role has 6 core skills \(prevalence ~0.6 among its applicants vs ~0.1 for others\). Score climbs from 36 \(0 core) Tj T* -0.5 0 Td (skills\) to 64 \(all 6\), ~+4.8 per core skill; off-role skills add nothing and long skill lists are a fabrication signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 223.1394 cm
+q
+BT 1 0 0 1 0 22.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 9 22.9 Tm .5 0 Td 10.4 TL /F2 8.3 Tf 0 0 0 rg (Other genuine drivers) Tj /F1 8.3 Tf ( \(ridge coefficients, points\): KPI met +3.1, each rating point +2.4, award +1.5, technical assessment +0.27/pt) Tj T* -0.5 0 Td (\(+0.22 more above 70\), one positive note +1.5 / negative note -1.5, overtime history -1.0, higher CTC/seniority mildly negative) Tj T* (\(long-tenure leaders score about 4-5 points below mid-career\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 179.0394 cm
+q
+BT 1 0 0 1 0 33.3 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 9 33.3 Tm .5 0 Td 10.4 TL /F2 8.3 Tf 0 0 0 rg (Old-panel preferences) Tj /F1 8.3 Tf ( \(relative points\): college tier \(IIT/NIT/BITS/IISc/DTU/NSUT ~ +6 to +9 vs mid colleges\), metro city) Tj T* -0.5 0 Td (\(Mumbai/Chennai/Pune/Hyderabad/Delhi ~ +3.5 vs Indore/Patna/Jaipur ~ -5\), referral channel +4.9, employer size 5,000+ ~ +4,) Tj T* (B.Tech/master's degree ~ +5 vs 12th/BCA/BSc, CV gap of more than 2 years since degree -3 \(sharp step at 2 years\). Their) Tj T* (coefficients on the true drivers are unchanged with/without these terms, so they are additive biases, not confounders.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 134.9394 cm
+q
+BT 1 0 0 1 0 33.3 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 9 33.3 Tm .5 0 Td 10.4 TL /F2 8.3 Tf 0 0 0 rg (Validation) Tj /F1 8.3 Tf ( \(Ledger, dev_winners\): a model trained on the Archive with all features recovers ) Tj /F2 8.3 Tf (112 of the 150) Tj /F1 8.3 Tf ( Ledger top-5% in its top) Tj T* -0.5 0 Td (150 \(repeat persons collapsed\); 5-fold CV R) Tj /F1 6.64 Tf 4.15 Ts (2) Tj /F1 8.3 Tf 0 Ts ( on genuine Archive rows = 0.42. The preference-neutralised model recovers 79/150) Tj T* (on the Ledger - expected, because the Ledger itself was scored by the biased panel; we use it for the Vault because the new panel) Tj T* (ignores those preferences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 117.9394 cm
+q
+.101961 .239216 .427451 rg
+BT 1 0 0 1 0 1.8 Tm /F2 10.2 Tf 12 TL (4. The current cycle - what differs in the Vault and how the shortlist accounts for it) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.44094 62.93937 cm
+q
+.901961 .929412 .968627 rg
+n 0 53 490.3937 -12.4 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 3 42.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (Difference \(debrief\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 93.70866 42.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (Evidence in the Vault) Tj T* ET
+Q
+Q
+q
+1 0 0 1 286.4646 42.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 7.6 Tf 9.4 TL (How the shortlist accounts for it) Tj T* ET
+Q
+Q
+q
+1 0 0 1 3 20.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.2 Tm /F1 7.6 Tf 9.4 TL (Public code contributions) Tj T* (\(new field\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 93.70866 1.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F1 7.6 Tf 9.4 TL (5,552 rows tracked; ordinary counts decay to a cap of) Tj T* (60; a separate uniform population of 144 rows has) Tj T* (90-408 contributions and is "good not great" \(mean) Tj T* (model score 56 vs 51.5, assessment 62 vs 56\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 286.4646 1.5 cm
+q
+BT 1 0 0 1 0 30 Tm 9.4 TL /F1 7.6 Tf 0 0 0 rg (Bonus +35 for >=90 \(116 of 127 eligible are in the list; the) Tj T* (rest have weak profiles\), plus a moderate ramp 0 \() Tj (<) Tj (=12\) to) Tj T* (+14 \() Tj (>) Tj (=30\) for ordinary counts. Missing/"not tracked" = no) Tj T* (credit.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.6 .6 .6 RG
+.3 w
+n 0 53 m 490.3937 53 l S
+n 0 0 m 0 53 l S
+n 490.3937 0 m 490.3937 53 l S
+n 0 0 m 490.3937 0 l S
+n 0 40.6 m 490.3937 40.6 l S
+n 90.70866 0 m 90.70866 53 l S
+n 283.4646 0 m 283.4646 53 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+35 722 542 32 re
+f*
+0 0 0 rg
+BT
+/F1-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 42 735 Tm
+(Team name\072 Giants    Unstop team ID\072    Members\072 Arush Pratap Singh\054 Himesh\054 Raj Kurele\054 Shaurya Pratap Singh) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 13 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 5087
+>>
+stream
+Gau`VgN)%<&q0LUFJ[PgF@8@o#i=W:WY@J&NL`&;m!V`2C'Y5>6m09Q!7B$.If#_.)-eSP1a?YbAP4<Z0Jbk?3ISJo5'cqdleg*IkaQ?Ks3;uVT^+W6Tc;GQ9D\AYaWF<+qrTSO_pFm-1n7=sE.C0I'cstcc_$5FEi6`1`,p2aRZ)hQ'oOFWcbmpN$E'IWQk%-spfN4W8b4U-G^<f2=7>P@]n6PO&'1A:gp,P943MOPiO]c7?Kl%@fFR:Abn57TP5/>u15dF6oO9g2&im^Pp5H/(Vs?!]T3q,lh.o&ja51>`qNNSH]h;hJ@?OKuPk89]BmF[<?nuc?;><^ErfD'j:2615AX]Q\6kn`_<[sR$"XSqJLMfU,GC"@8h[L(^H_$BM+*4$21<D=UjAJjCZRkd0]igMhT^?^XqF6:3]a#VICq&^9:eOEoQVtc-:s3BD,tk"@k#W`?$X'"78.$6"H#`fc?93T9qYYJuA5TWJC$Pf5V+bA+S0;aG-kqM`.19;n,-LR+Sl:qfN@?N=BURXu%O[rW8RodOc$Yk\QVpDdHESaAo37S-agR9[(d+XkkY,:DYtR_X4TB1[gA?cI!So13h;QhPBC6'Y1EO)Z7lomi.'6qr6aWRs[GccGg0uiJO)5Af#sPf`@?7r3=dGEHH]IJO8I=KTcr!A80%C9bnd,@#hLpc6U\*t2p!3L95=>?B4Gq*Y&HZS&N+c:[hG)>MSlXhQD1nXG#;sn?WcDV1;sZ@YefhcR9ZR(D@kT5a!P3Xf$+.XkXYh-MOgSOtJ]D!^e^ZSk8@"QW)F6P?nl;HD-r3dPJCA'"%ahRMSAiajm[JuKfS[(<RU`@b,%]:+h"1fT)]SG3R?]+[U8hUFXpp[5NGL7Z$t+V9P`eY@A6-.D2]5Mf@/B?pj]KPPjLRT)B4^7B!a`->,Y3Ft192$QKD)13Sj.PtQX]\fm#l"HU2%qLHPUjf8!JNTQ@kGuU-7=W_Csk],&9tOa?M/A9L3d/Cf3UtH'P7[iur+J<Z@W-5,T!,GZ)"BRR4iLL%fuqrfN&Egq#<NGm]"eq0FV18rEm43@>hgdRir\eFs?t)g8MI*\b%Dnr>XMG/2.:q:`?t]ps%ZI#IPH4Tu0^KB$,/M#"6Uk0$..I>X2.Mr./-X%`C)b=*RcTB'aXk$,o*DV+Ga-%F&X(V"ce$aJ80b%+Kf!YtjIbdOko7@ArG$c0-R,u/Sp(j0)qGIbLQD5PehO>h_u/*SIX>3QlDbW`i@$C`%,K.o8+'M!ZoNo8.P/Rq\hac"nC9N;gOYg3W$,oG-GjY)dY92-<KA.1k*RK+P!FtjnP3Q3THoL^Y<ZP7^/[U:I'9>&7="q%/M=`W[lf9a7UA9%4BD[-hP=0PG!Q!1Zcb$,]Q5AEP_'ZHAkFpQ-4f[qoMnD8sGqeYI+2,]ChYYTbWJ/>`5%M(l;0Crq`A=q^:#+HnHb/?oP'3tAIN-@1U2(4%;Wt5CJWa)jmh"2fiPd,!Z;;nI35b4K*Jhp#ca[/$>BAB?gj4ee30GU?BE3XSHNt<9ZluD35`GdgR[o/bAI7Snk!Lt)1D#*&s%*/5N-U.l3.,CI]!n95m-oG;/e)8%7T/)-++]i&&*$-n4kLh<8ICr*hj9c2Nm_HmEK)%(tr;Hh_c2T`[5=%DL3d'M`XX).V8oMu7aVZp=2)!P@Sf-!QbuhT.S[*IYB$f:XUU,uiqoF+,b2-8<X340-<]e[]4dZZCP0gkl%d]cJ*8OPN*bZT"+`,STX9\%2E42=ZqK)US`-$ChU&J:]%/eq(p#gZ,oQC_r;*f7=Ds(NQ)o(6N^nL3,L>cN*6Y,OYhncdMLL;eFI/$>ON5M?=fI[4!i1OpAoS,!30(O;)`K.+R2+-_B\NLc>XYf"$[gr.PfDq%C6_W8aB_03&59B,BY^U6M[$_7$_Shg1[TOuN$%cS5l[7<DnhB\eR.Ic[h;1Se$[.r@Y'pA)Ue26T1(`Lr.2aI_qGR!s$;+>9<66\V3hrTHG&M]t"#(tI]\mR01[A"YR0T:FhdEeNeH`othI%$a%i_;_O;Dk045lecrc@'RLH:@b0Gdi0)"^bnK+m<-N!mM(Ur[?]4`u1j:hsP.E;e%l\:,G$R:_-e\#S2Un?ba2!HIlZ9XQamO0&2'c%!M(JeB>rd_%&K\72WpTIq_H&TjcN3k^_+B"aI4Or*<:880"gkD+@3.'oS`BF1$Q5(r,sg-(B24LBL^Re`fcQdTf]7`Jo-*jnjH8X?HXQ"Ead,Vo?O^UD>dI\R(u*]d((`Lh?Y5dlGHJ\@eB[m$8,]6$Vr.'3Z.!$jeJgg8p!%[\32kE4=R1J]cL[r9-0@>3V2!cN21i3lS"lHWm3;7jufB\^$+gkYSaXFtOP3TTc6B$QId69Xue28$K?>?D,]IoHZa/7pL?<kZ;mA8W6e>4S==:'I-n;QlGBl&1`o;X,lrJGtFkXc0'^&da=dRW%+HO\dHTik/6;4J%bX(MBRHI">DIgkUIIHC6J#Kj/:![MEi=SJErTpgeEkmJBFEOp0Ye33H]dgg5_DKl%n]!2lJO#T=X-aQGW*=Jj=o^b7\'g13=sT@G)D4`9AMGLp8j6Q&a]l;<l<3L:G;WHY(tn1toi_Z_Zp6lBuUUH;n,A]GA3%k$Bii[V!Bd>5[sh-c#R`+:0Ld1L>NT51IQ<*lX@pQY@8mf<Kjff!q9*l2:KGF\EVfu(n-=1X%-;CIr:AdeQ,19QXVr'mC].*mH`$;h$j17[X/VkoJA!-M^=--JHFj%oMM0<FbZ+,HB`;99jE\n't]X7ru)p8msC=Y.bb^NkO#5XJ9s0D[LDH;js*5recc"8Nu;WO"aG<?TkLR6uI"Pc8C%=5i#3k>(m?/Bu4TT<M3:38V34LFdt7'(;%X45^FhV2eJ%<7.`L>_jp-<%PO?(Mb98E5k(7WGDF(?N5i?N@88+JQlp8]Y/UTEMPY,P@j+-54*`*g4^6Pa@+1L<n">F9J2"t,L6?NBmMDTaQ<BT/D@#&lRONao6=/NlNCA"J=+SI$(NgJXZ/EsBDMnC`>bXr"oKf*#g^OLVs#AkbT(LSJYFa7qDk\,8t#Q'Cm9(rD`"rWjKdUkiJ/=NN?C<BW_VH/],3MqmSeZaW8+T[*HMfJR$b^BB!rL;9>lr2[LKe+^n#jZf(O1@D:=C"j)n%uCd,WhA&`W4(p0L';hn-IpATYDZ;:Ftmo'gdL0e,@\hUk\$EHhL&lf^hXO9A2qfm?KYKCufRLEB?<1ae)])"..@DiK*ODlJsO4_-'0^le?aGmQPR"<#c7Aq/=aN:>^2XjuO1RDTC<bLIuAu2]r2Ciq=rQZh#>t`3rVJ)iRqe*L\jlh_6D3=Zd-9$rbZ=@)*k)i=0*RPq_2Cuo^P.oL,GKpb&7;4m'#R)8WPCDPA^N'+"Y,>YtY[NT)&gRK.L^`C0mpHEt)EpE)SC>`r-si;bF/Vk-LPt[;8ptt_o+AkFBFZNS5Y]Y.`PN9^+&#1[K%^a.JB+(lSpHRahm_AK7H\u(nhZU7W1.`__p:k\\JTMjEUj4GL1Fhuo..'6VY?rjCugUC?7g8].^'T[K)>FiH5QH2%(baAo#-m@&"$kAHR[<](G4fgF/H^K]ACD%J1Fa_Q_.#-aEZDnaJVt=YtP,Z\duNRWFiWOImf1A\C3'VI*&h#gH"XR@?k1]8>F(<eB(AmBF3\I,nj\1WuMAd1U[G-oHMWAMf."pnE*-r`77.dSYi_gTej"B=QNO$UDekOm<fB(09p`08e+/Ns!3X&4lr6eO?XaiAu+!U?`'dniQ)MJeS<(]`.pfclVaYhp'Z:c?lKG1"/Gb;$W2W)H<aj''>EPh#R`pj!.k9+c^k-b7?Wt05](HfYcG<'jiXPbWF?0qdf("eg[Du72%I1dMZW]#0fRs9Gm8eqPTj`&Cp"B?re7="Gnr1lILXA.;pNP:*)S?O+J>C3-1aRi0&1@EO%g$h]8u_?PBeUHN+=RmS^)q#!S5*sY.5"6U688V,j$_XZYPgD>'o=*Z7uT.W;dWfE<&frCE,+M<SP$(<4-12/FsKEn#-\,MQY2AAOM/"S=-m+\^8sWoH,HfpMDql(o#RFpGu#1P^B94ienLa(2k9uK,_Fda^>\F2CcQE736LTNC,bY6g7k#GIn*"[8&U/JJFKJEk]=dEWen@eW_dDeN^^'Dl;e('NIn$%bQ2gbU0"AIR/4%Tr7AQFYe2?@09jSY$#=l8WC&f:4H74=XL/[^u0R[Ke/4LKMKh("t`YST&M!T/dqXMbVrs*#IIlJM/^Y=,-p-Nq'52uQ\maZ\49kAO*n(7Q#JEtVk;S!?RE*G^g#=m^"u*;);e-aIDdkc!Jen!eJe-pg''Du,Y:qL>cp**P7McWbp!lK[n5iJDLlt/h1N!C<bNTNJ6J^]/$0&J4!+466ot__ecO^sZu%YUnB/"j2#p+"OrQ5[c=!S$Ao+C`S/I=X9pXpn09Z*I^5^M6s%!j&@n]0GLD?6Nns;aqE,XVaY3n9\gg/OnFr^ni<H@Y$R(sjL\1@V]Gk^ocoAe/8:f^6ogf`er_jLOZE+"5uZP`%lj5PuHI"B-a'o3U-mZ:/(h0lb]iXZMV]`2>L!%nbePN_UF4D`eXV#n%7hf!/h&pYs`p9]<R\'XfDFU,jB[LXQRUg%Z_VbN:-=$&p4'7AV5-U$$>pDrYD@C%^R3.JF[a!M/]H"e$bp9f\94K=danWsJZrA=fk[PYFo7Xl:Sj-1nLHmcH9S7f5l>&4SMaLnR&;lK:8h&,*L@Y+bSjQBI'$T6F)hrXi3a>F-5o9YV]*9cndJ(sjcJa9_un%Dmal79'=dWD_K8DS9hiNE":2cN#0///U3Aap3OJ$A<N/go:TZ+]DUlIn4-_&o+oD%K?ET8<u6UBaQPdZ:5JW:i;CgoT!7`*>rK8n9Nu]$Of2l#cBFIl%&r3DRe'dISoY_"]rIe!E:.#*)'Ea'[O(Zm`X-%I!*M40jRr#3=IoJbb9Bhg\"3/ml0]QFih,o_.$X?N<I5r2!;D\d!gZG>`Q^Z[lQ@5c&Im-@M=<pG/9_7]+kIPYPFd$B:j_5KN^Bhlh*5f",VNIS5O=r[e1ro/LqV)7p6pKe":K>+<q:?W;:V?M*<n&H?>\~>
+endstream
+endobj
+13 0 obj
+<<
+/F1 6 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000120 00000 n 
+0000000169 00000 n 
+0000000433 00000 n 
+0000014639 00000 n 
+0000014746 00000 n 
+0000014853 00000 n 
+0000014965 00000 n 
+0000015080 00000 n 
+0000015186 00000 n 
+0000015388 00000 n 
+0000020568 00000 n 
+trailer
+<<
+/Size 14
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+20631
+%%EOF
